@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "csharp\Fac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "csharp\AbstractFactory\AbstractFactory.csproj", "{0C3A4EB3-5AFD-4373-8F78-34A004B4D530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "csharp\Prototype\Prototype.csproj", "{92416813-CF32-4810-BF38-3AF39DB97E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "csharp\Prototype\Prototype.csproj", "{92416813-CF32-4810-BF38-3AF39DB97E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "csharp\Builder\Builder.csproj", "{829AC8DA-A9D9-4D15-9CE2-86E0A5D2A50B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{92416813-CF32-4810-BF38-3AF39DB97E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92416813-CF32-4810-BF38-3AF39DB97E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92416813-CF32-4810-BF38-3AF39DB97E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829AC8DA-A9D9-4D15-9CE2-86E0A5D2A50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829AC8DA-A9D9-4D15-9CE2-86E0A5D2A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829AC8DA-A9D9-4D15-9CE2-86E0A5D2A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829AC8DA-A9D9-4D15-9CE2-86E0A5D2A50B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{8A8EC96A-45E5-4864-AC23-1A26F61F4E11} = {A63CB2FE-F5FA-477F-98A5-7F65FCEDC905}
 		{0C3A4EB3-5AFD-4373-8F78-34A004B4D530} = {A63CB2FE-F5FA-477F-98A5-7F65FCEDC905}
 		{92416813-CF32-4810-BF38-3AF39DB97E42} = {A63CB2FE-F5FA-477F-98A5-7F65FCEDC905}
+		{829AC8DA-A9D9-4D15-9CE2-86E0A5D2A50B} = {A63CB2FE-F5FA-477F-98A5-7F65FCEDC905}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44AA70C7-CD10-43F3-9819-F525F693FD8F}
