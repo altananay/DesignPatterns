@@ -12,3 +12,4 @@ C:\Users\altan\source\repos\DesignPatterns\csharp\Singleton\obj\Debug\net7.0\ref
 C:\Users\altan\source\repos\DesignPatterns\csharp\Singleton\obj\Debug\net7.0\Singleton.pdb
 C:\Users\altan\source\repos\DesignPatterns\csharp\Singleton\obj\Debug\net7.0\Singleton.genruntimeconfig.cache
 C:\Users\altan\source\repos\DesignPatterns\csharp\Singleton\obj\Debug\net7.0\ref\Singleton.dll
+C:\Users\altan\source\repos\DesignPatterns\csharp\Singleton\obj\Debug\net7.0\Singleton.sourcelink.json
