@@ -6,14 +6,9 @@ public class CustomerManager {
   private CustomerManager() {}
 
   public static CustomerManager createAsSingleton() {
-    if (customerManager == null)
-    {
-      synchronized (CustomerManager.class)
-      {
-        if (customerManager == null)
-        {
-          customerManager = new CustomerManager();
-        }
+    synchronized (CustomerManager.class) {
+      if (customerManager == null) {
+        customerManager = new CustomerManager();
       }
     }
 
